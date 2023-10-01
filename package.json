@@ -1,0 +1,15 @@
+{
+  "name": "eduford",
+  "version": "1.0.0",
+  "description": "Institute Web",
+  "default": "home.html",
+  "scripts": {
+    "start": "parcel home.html",
+    "build": "parcel build home.html --dist-dir ./dist"
+  },
+  "author": "Rudra",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
